@@ -79,3 +79,9 @@ ATTENTION: default value of option force_s3tc_enable overridden by environment.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1528488383979	geckodriver	INFO	geckodriver 0.20.1
+1528488384000	geckodriver	INFO	Listening on 127.0.0.1:44829
+1528488384147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.NbUuHzvn8Jq9"
+1528488393126	Marionette	INFO	Listening on port 46175
+1528488393448	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
