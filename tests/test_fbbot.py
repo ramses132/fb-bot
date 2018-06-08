@@ -1,8 +1,8 @@
 import unittest
 
-from fbbot import FBBot
+from fbbot import return_msg
 
 def test_msg():
-    msg = FBBot.msg
-    assert msg == 'hello world'
+    msg = 'hello world'
+    assert return_msg(msg) == msg
 
