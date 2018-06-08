@@ -1,0 +1,3 @@
+lenguage: python
+script:
+        - python - pytest -v
