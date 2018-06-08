@@ -1,7 +1,8 @@
-lenguage: python
+language: python
 python:
         - "3.6"
 install:
+        - pip install --upgrade pip
         - pip install -r requirements.txt
 script:
         - pytest
